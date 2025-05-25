@@ -1,0 +1,22 @@
+<div class="w-full min-h-screen px-4 py-8 grid grid-rows-[1fr_4fr] gap-5">
+    <div class="h-full my-10">
+    <div class="flex justify-center mb-4">
+        <div class="size-[10rem] mb-4 overflow-hidden rounded-full ring-2 ring-indigo-100">
+        <%#= image_tag "Me.jpg", alt: "profile image", class: "w-full h-full object-cover" %>
+        </div>
+    </div>
+    <p class="text-center text-gray-700">ยินดีต้อนรับสู่หน้า Brag ของฉัน! 🎉</p>
+    </div>
+    <div>
+    <h1>🎯 Goals for 2025</h1>
+    <ul>
+        <li>เรียนรู้วิธีการทำงานของพี่ๆ และสามารถนำไปปรับใช้ในโปรเจกต์หน้าได้</li>
+        <li>สร้าง MVP ที่ช่วยแก้ปัญหาให้ BMA (โรงเรียนฝึกอาชีพกรุงเทพมหานคร) อย่างน้อยสัก 1 MVP</li>
+        <li>พัฒนาเว็บไซต์ด้วย <span class="highlight">Ruby on Rails</span> อย่างน้อย 1 เว็บไซต์</li>
+        <li>ทำ <span class="highlight">Codewars</span> ให้ได้ 60++ แต้ม</li>
+        <li>เขียน <span class="highlight">Automated Test</span> ให้คล่องสามารถนำไปปรับใช้ในโปรเจกต์ถัดไปได้</li>
+    </ul>
+    <%= link_to "ไปที่หน้า Brag", quests_path, class: "rounded-md px-3.5 py-2.5 bg-blue-600 hover:bg-blue-500 text-white block font-medium" %>
+    </div>
+
+</div>
